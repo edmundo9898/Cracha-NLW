@@ -1,0 +1,29 @@
+Rocketseat 
+
+Aprenda a se questionar.
+Aprender a ensinar, para vc mesmo.
+Anota e revisar oque foi anotado e buscar oque não entendeu.
+Fazer pesquisas.
+
+Eu preciso de tempo.
+  Descansar bem a mente.
+  Meu cerebro precisa de tempo para entender as coisas.
+Eu preciso de persistência.
+Programar e encontrar soluçôes.
+Para de se comparar com os outros.
+Se esforçar mais para resolver sozinho.
+ 
+
+https://bennettfeely.com/clippy/
+
+VARIAVEIS Let e const
+
+camelCase
+PascalCase
+snake_case
+
+#ImaginarConstruirTransformar
+
+API : 
+
+Arrow functions
