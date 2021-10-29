@@ -23,7 +23,17 @@ PascalCase
 snake_case
 
 #ImaginarConstruirTransformar
+#SemLimites
+#BuildTheFuture
 
 API : 
 
 Arrow functions
+
+Metodologia 
+pratica 
+foco
+grupo
+
+grade curricular alinhada ao mercado
+

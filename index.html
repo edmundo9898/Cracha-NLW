@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -16,43 +16,58 @@
   <body>
     <main>
       <div class="container">
-        <div class="avatar">
-          <span>
-            <img src="imagens/build.svg" alt="Selo curso" />
-          </span>
-          <img id="userImg" src="imagens/jogo2.jpg" alt="Foto de Edmundo" />
+        <div class="nlw">
+          <div class="avatar">
+            <span>
+              <img src="imagens/build.svg" alt="Selo curso" />
+            </span>
+            <img id="userImg" src="imagens/jogo2.jpg" alt="Foto de Edmundo" />
+          </div>
+
+          <h1 id="userName">Edmundo roberto</h1>
+          <a id="userHub" href="https://github.com/maykbrito" target="_blank">
+            <img src="imagens/git.svg" alt="Ícone GitHub" />
+            <span id="usersLogin">Roberto</span></a
+          >
+          <p id="userBio">Front-end Developer.</p>
+
+          <ul id="socialLinks">
+            <li class="Linkedin">
+              <a href="https://youtube.com/BRKsEDU" target="_blank">
+                <img src="imagens/icons8-linkedin.svg" alt="Link do youtube" />
+              </a>
+            </li>
+            <li class="instagram">
+              <a
+                href="https://www.instagram.com/edmundo_roberto_"
+                target="_blank"
+              >
+                <img src="imagens/icons8-instagram.svg" alt="Link do youtube" />
+              </a>
+            </li>
+            <li class="facebook">
+              <a href="https://www.facebook.com/ed.robertoX/" target="_blank">
+                <img src="imagens/icons8-facebook.svg" alt="Link do youtube" />
+              </a>
+            </li>
+            <li class="Discord">
+              <a href="https://www.facebook.com/ed.robertoX/" target="_blank">
+                <img
+                  src="imagens/icons8-logo-discord.svg"
+                  alt="Link do youtube"
+                />
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <h1 id="userName">Edmundo roberto</h1>
-        <a id="userHub" href="https://github.com/maykbrito" target="_blank">
-          <img src="imagens/git.svg" alt="Ícone GitHub" />
-          <span id="usersLogin">Roberto</span></a
-        >
-        <p id="userBio">Front-end Developer.</p>
-
-        <ul id="socialLinks">
-          <li class="youtube">
-            <a href="https://youtube.com/BRKsEDU" target="_blank">
-              <img src="imagens/youtuber.svg" alt="Link do youtube" />
-            </a>
-          </li>
-          <li class="instagram">
-            <a
-              href="https://www.instagram.com/edmundo_roberto_"
-              target="_blank"
-            >
-              <img src="imagens/instagram.svg" alt="Link do youtube" />
-            </a>
-          </li>
-          <li class="facebook">
-            <a href="https://www.facebook.com/ed.robertoX/" target="_blank">
-              <img src="imagens/facebook.svg" alt="Link do youtube" />
-            </a>
-          </li>
-        </ul>
       </div>
     </main>
+
     <script src="main.js"></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelectorAll('.nlw'))
+    </script>
   </body>
 </html>
 
